@@ -1,7 +1,7 @@
 {
   "name": "@apto/icons",
   "license": "MIT",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "private": false,
   "description": "Apto Icons",
   "author": "Apto",
@@ -18,7 +18,6 @@
     "icons": "gulp sprites",
     "build": "yarn build:setup; yarn icons; rollup -c",
     "build:setup": "./scripts/build-setup.sh",
-    "pack": "npm pack",
     "svg": "npx @svgr/cli --template svg-template.js --ext tsx -d src/react/ src/assets"
   },
   "engines": {
