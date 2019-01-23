@@ -1,7 +1,7 @@
 {
   "name": "@apto/icons",
   "license": "MIT",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "private": false,
   "description": "Apto Icons",
   "author": "Apto",
@@ -18,7 +18,8 @@
     "icons": "gulp sprites",
     "build": "yarn build:setup; yarn icons; rollup -c",
     "build:setup": "./scripts/build-setup.sh",
-    "svg": "npx @svgr/cli --template svg-template.js --ext js -d src/react/ src/assets"
+    "pack": "npm pack",
+    "svg": "npx @svgr/cli --template svg-template.js --ext tsx -d src/react/ src/assets"
   },
   "engines": {
     "node": "^10.11",
@@ -27,24 +28,26 @@
   "main": "aptoicons.cjs.js",
   "module": "aptoicons.esm.js",
   "browser": "aptoicons.umd.js",
+  "types": "index.d.ts",
   "dependencies": {
     "react": "^16.6.3"
   },
   "devDependencies": {
     "@babel/core": "^7.2.2",
-    "@babel/preset-env": "^7.3.1",
     "@babel/preset-react": "^7.0.0",
     "@svgr/cli": "^4.1.0",
     "@svgr/rollup": "^4.1.0",
+    "@types/react": "^16.7.6",
     "babel-loader": "^8.0.5",
     "gulp": "^3.9.1",
     "gulp-cli": "^2.0.1",
     "gulp-svg-sprites": "^4.1.2",
-    "rollup": "^0.67.3",
-    "rollup-plugin-babel": "^4.3.2",
-    "rollup-plugin-commonjs": "^9.2.0",
+    "rollup": "^0.68",
     "rollup-plugin-generate-package-json": "^2.1.1",
-    "rollup-plugin-node-resolve": "^4.0.0",
-    "typescript": "^3.2.4"
+    "rollup-plugin-typescript2": "^0.19.2",
+    "tslint": "^5.11.0",
+    "tslint-config-prettier": "^1.16.0",
+    "tslint-react": "^3.6.0",
+    "typescript": "3.1.1"
   }
 }
