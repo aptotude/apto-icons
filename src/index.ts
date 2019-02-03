@@ -1,4 +1,5 @@
 export * from './react/Add';
+export * from './react/AddPhoto';
 export * from './react/Apto';
 export * from './react/ArrowBack';
 export * from './react/ArrowForward';

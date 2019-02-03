@@ -1,10 +1,10 @@
 {
   "name": "@apto/icons",
   "license": "MIT",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "private": false,
   "description": "Apto Icons",
-  "author": "Apto",
+  "author": "Apto Inc",
   "homepage": "https://github.com/aptotude/apto-icons",
   "bugs": {
     "url": "https://github.com/aptotude/apto-icons/issues"
