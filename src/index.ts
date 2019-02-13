@@ -30,6 +30,7 @@ export * from './react/Loyalty';
 export * from './react/Meeting';
 export * from './react/Menu';
 export * from './react/Money';
+export * from './react/NewRelease';
 export * from './react/Peaks';
 export * from './react/People';
 export * from './react/Person';
