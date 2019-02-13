@@ -16,7 +16,7 @@
   "scripts": {
     "gulp": "gulp",
     "icons": "gulp sprites",
-    "build": "yarn build:setup; yarn icons; rollup -c",
+    "build": "yarn build:setup; yarn svg; yarn icons; rollup -c",
     "build:setup": "./scripts/build-setup.sh",
     "svg": "npx @svgr/cli --template svg-template.js --ext tsx -d src/react/ src/assets"
   },
