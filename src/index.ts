@@ -7,6 +7,7 @@ export * from './react/ArrowForward';
 export * from './react/Assignment';
 export * from './react/BriefCase';
 export * from './react/CallList';
+export * from './react/CalloutExclamation';
 export * from './react/Check';
 export * from './react/CheckCircle';
 export * from './react/CheckboxChecked';
